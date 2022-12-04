@@ -13,7 +13,7 @@ let chyper15="";
 //Create a function that takes the secret message and turns it in ASCII code.The code shifts only lowercase and uppercase letters of 15 positions leaving special 
 //characters and spaces as the user type them  
 //To do so I divided the ASCII value for letters in uppercase (from 65 to 90) and lowercase (from 97 to 122). 
-//I've tried different options (as you can see in test.js) but the right one is a for of loop, that works on each ascii values stored in the array.
+//For of loop, to iterate on each ascii values stored in the array.
 
 function chyperMessage(){//opening function
 
